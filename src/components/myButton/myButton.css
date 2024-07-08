@@ -1,0 +1,22 @@
+.myButton {
+    padding: 10px 20px;
+    background-color: rgb(183, 183, 225);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    /* box-shadow: 10px 10px 16px rgb(23, 23, 98),
+    -10px -10px -10px rgb(17, 17, 55); */
+    transition: all 0.1 ease-in-out;
+}
+/* Эти стили сработают при нажатии на кнопку */
+.myButton:hover {
+    background-color: rgb(223, 223, 252);
+}
+
+.myButton:active {
+    background-color: rgb(29, 29, 94);
+    color: white;
+    /* box-shadow: inset 3px 3px 6px  rgb(144, 144, 225),
+    inset -3px -3px -6px rgb(23, 23, 86); */
+}

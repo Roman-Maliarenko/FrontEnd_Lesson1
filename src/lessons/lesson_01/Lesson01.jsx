@@ -5,7 +5,7 @@ export default function Lesson01() {
     //console.dir(document);
 
     const heading = 'Lesson 01'
-    const classContainer = 'lesson1-container'
+    const classContainer = 'lesson-container'
 
     function formatName(user){
         return `Name: ${user.name}, lastname ${user.lastname}`
@@ -15,10 +15,8 @@ export default function Lesson01() {
         name: 'John',
         lastname: 'Doe'
     };
-
     const isLogin = true
-
-
+    
     return (
     <div className = {classContainer}>
         <h4>{heading}</h4>
